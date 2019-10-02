@@ -40,7 +40,7 @@ div#container {
 
 div#header {
     padding:1em;
-    background-color:#212121;
+    background-color:#03A9F4;
     color: white;
     /* border-bottom:6px double gray; */
 }
@@ -49,6 +49,16 @@ div#header {
         font-size:1.1em;
         margin:0;
         padding-bottom: 8px;
+    }
+
+div#navbar{
+    padding: 8px;
+    background-color: #0288D1;
+}
+    div#navbar a{
+        padding-left: 4px;
+        padding-right: 4px;
+        color: #B3E5FC;
     }
 
 div#content {
@@ -63,7 +73,7 @@ div#footer {
     position:absolute;
     width:100%;
     bottom:0; /* stick to bottom */
-    background:#ddd;
+    background:#03A9F4;
     /* border-top:6px double gray; */
 }
     div#footer p {
