@@ -29,13 +29,15 @@ body{
     }
 
 #navbar{
-    padding: 8px;
+    padding: 12px;
     background-color: #0288D1;
 }
     #navbar a{
         padding-left: 4px;
         padding-right: 4px;
         color: #B3E5FC;
+        font-size: 14px;
+        text-decoration: none;
     }
 
 #content {
