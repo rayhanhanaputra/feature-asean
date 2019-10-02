@@ -74,6 +74,8 @@ div#footer {
     width:100%;
     bottom:0; /* stick to bottom */
     background:#03A9F4;
+    padding-top: 8px;
+    padding-bottom: 8px;
     /* border-top:6px double gray; */
 }
     div#footer p {
