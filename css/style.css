@@ -58,7 +58,7 @@ body{
 #post{
     border-bottom: 2px solid #ebebeb;
     height: 300px;;
-    text-align: left;
+    text-align: justify;
     padding: 32px 32px 32px 64px;
 }
 
