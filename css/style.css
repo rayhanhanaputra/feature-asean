@@ -84,10 +84,18 @@ body{
 #sidebar{
     float: left;
     width: 24%;
+    padding-top: 16px;
     height: 100%;
     background-color: #f0f0f0;
     border-left: 2px  solid #ebebeb;
+    font-size: 16px;
+    color: black;
 }
+
+    #sidebar a{
+        color: black;
+        font-size: 16px;
+    }
 
 #footer {
     position: absolute;
