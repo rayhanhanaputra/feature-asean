@@ -73,10 +73,10 @@ body{
         padding: 16px 32px;
         text-align: center;
         font-size: 16px;
+        float: right;
         margin: 4px 2px;
         opacity: 0.6;
         transition: 0.3s;
-        display: inline-block;
         text-decoration: none;
         cursor: pointer;
     }
@@ -85,7 +85,7 @@ body{
         opacity: 1;
     }
 
-    #post p{
+    #post p,a{
         word-wrap: break-word;
         overflow: hidden;
         padding-bottom: 8px;
