@@ -53,6 +53,7 @@ body{
     width: 75%;
     height: 100%;
     background-color: #f0f0f0;
+
 }
 
 #post{
@@ -60,6 +61,8 @@ body{
     height: auto;;
     text-align: justify;
     padding: 32px 32px 64px 64px;
+    border-left: 2px  solid #e0e0e0;
+    border-right: 2px  solid #e0e0e0;
 }
 
     #post button{
@@ -92,7 +95,6 @@ body{
     padding-top: 16px;
     height: 100%;
     background-color: #f0f0f0;
-    border-left: 2px  solid #e0e0e0;
     font-size: 16px;
     color: black;
 }
