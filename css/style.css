@@ -63,6 +63,7 @@ body{
     padding: 32px 32px 64px 64px;
     border-left: 2px  solid #e0e0e0;
     border-right: 2px  solid #e0e0e0;
+    overflow-wrap: break-word;
 }
 
     #post button{
@@ -86,7 +87,8 @@ body{
 
     #post p{
         word-wrap: break-word;
-        overflow: hidden
+        overflow: hidden;
+        padding-bottom: 8px;
     }
 
 #sidebar{
