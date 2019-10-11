@@ -66,6 +66,20 @@ body{
         height: 250px;
     }
 
+#context2{
+    padding: 32px 64px 32px 64px;   
+}
+    
+    #context2 img{
+        width: 400px;
+        height: auto;
+        text-align: center;
+    }
+
+    #context2 p{
+        text-align: justify;
+    }
+
 #post{
     height: auto;;
     text-align: justify;
