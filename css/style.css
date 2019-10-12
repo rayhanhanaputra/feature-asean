@@ -26,11 +26,12 @@ body{
         float: left;
         width: 120px;
         height: 120px;
+        padding-left: 110px;
     }
 
     #header h1, h4 {
             justify-content: center;
-            padding-right: 120px;
+            padding-right: 230px;
         }
 
 #navbar{
