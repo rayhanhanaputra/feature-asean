@@ -3,7 +3,6 @@ body{
     padding: 0px;
     margin: 0;
     font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-    min-width: 550px;
     background-color: #f0f0f0
 }
 
@@ -19,27 +18,25 @@ body{
     padding:1em;
     background-color:#03A9F4;
     color: white;
-    /* border-bottom:6px double gray; */
 }
 
     #header img {
         float: left;
         width: 120px;
         height: 120px;
-        padding-left: 110px;
+        grid-column: 0/4;
     }
 
     #header #icon_smasa {
         float: right;
         width: 105px;
         height: 120px;
-        padding-right: 110px;
-
+        grid-column: 4/-1;
     }
 
     #header h1, h4 {
             justify-content: center;
-            padding-inline-start:330px ;
+            grid-column: 1/4;
         }
 
 #navbar{
@@ -52,6 +49,7 @@ body{
         color: #B3E5FC;
         font-size: 14px;
         text-decoration: none;
+        grid-column: 0/-1;
     }
 
 #content {
