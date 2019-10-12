@@ -29,9 +29,17 @@ body{
         padding-left: 110px;
     }
 
+    #header #icon_smasa {
+        float: right;
+        width: 105px;
+        height: 120px;
+        padding-right: 110px;
+
+    }
+
     #header h1, h4 {
             justify-content: center;
-            padding-right: 230px;
+            padding-inline-start:330px ;
         }
 
 #navbar{
